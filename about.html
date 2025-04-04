@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Fancy Button Styles */
+        .download-cv-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #007bff; /* A techy blue */
+            color: #fff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .download-cv-btn:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .download-cv-btn svg {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 600px) {
+            .download-cv-btn {
+                padding: 10px 20px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about-section">
+        <div class="profile-container">
+            <img src="photo files/him.jpg" alt="Calvin Otieno" class="profile-pic">
+            <h2>Hi, I'm Calvin Otieno</h2>
+            <p>I'm Calvin Otieno Wanyama, a 20-year-old Cooperative University of Kenya computer science graduate presently enrolled in PLP's Software Engineering program. Based in Langata, Nairobi, I work as a freelance web and graphic designer with a focus on internet marketing, logo design, and photo editing. In addition, I possess expertise in data science, machine learning, software engineering, and cybersecurity. I have a strong interest in basketball and am constantly searching for methods to advance in both technology and business. After earning my degree in computer science, I'm concentrating on growing my freelance business and honing my skills in cybersecurity and software engineering. As part of my ethical hacking quest, I have already installed Kali Linux. I do web development, graphic design, and online marketing services on Fiverr. To hone my technical skills, I also stay up to date on data structures, algorithms, and numeracy. In the end, whether it's in technology, business, or life in general, I'm all about development, innovation, and making things happen.</p>
+
+            <a href="https://brown-zulema-22.tiiny.site/" class="download-cv-btn" download="Calvin Otieno CV.pdf">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12 1.5a5.25 5.25 0 00-5.25 5.25v1.5a3 3 0 106 0V6.75A5.25 5.25 0 0012 1.5zm9 8.25a3.75 3.75 0 11-7.5 0v4.333A3.75 3.75 0 1121 13.5V9.75z" clip-rule="evenodd" />
+                </svg>
+                Get My CV
+            </a>
+
+        </div>
+    </section>
+</body>
+
+</html>
